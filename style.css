@@ -5,13 +5,15 @@
 }
 h1{
     text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
 .subcontainer{
     border: 2px solid black;
     margin: 10px 2%;
     float: left;
     width: 29.3333%;
-    height: 150px;
+    height: 160px;
     background-color: rgb(205, 195, 195);
 }
 .section{
@@ -19,11 +21,22 @@ h1{
     font-size: 18px;
     padding: 3px 20px;
     font-weight: bold;
-    background-color: aqua;
+    border: 2px solid black;
+}
+.chicken{
+    background-color: rgb(228, 160, 193);
+}
+.beef{
+    background-color: rgb(179, 67, 67);
+    color: white;
+}
+.sushi{
+    background-color: rgb(196, 193, 109);
 }
 .content{
     clear: both;
     padding: 10px;
+    font-weight: 800;
 }
 @media (min-width: 768px) and (max-width: 991px) {
     .third{
