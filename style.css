@@ -1,3 +1,42 @@
-body{
+*{
+    margin: 0;;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+}
+.subcontainer{
+    border: 2px solid black;
+    margin: 10px 2%;
+    float: left;
+    width: 29.3333%;
+    height: 150px;
+    background-color: rgb(205, 195, 195);
+}
+.section{
+    float: right;
+    font-size: 18px;
+    padding: 3px 20px;
+    font-weight: bold;
     background-color: aqua;
+}
+.content{
+    clear: both;
+    padding: 10px;
+}
+@media (min-width: 600px) and (max-width: 900px) {
+    .third{
+        clear: left;
+        width: auto;
+    }
+    .first, .second{
+        width: 46%;
+    }
+    
+}
+@media (min-width: 0) and (max-width: 600px){
+    .subcontainer{
+        width: auto;
+    }
 }
