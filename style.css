@@ -25,7 +25,7 @@ h1{
     clear: both;
     padding: 10px;
 }
-@media (min-width: 600px) and (max-width: 900px) {
+@media (min-width: 768px) and (max-width: 991px) {
     .third{
         clear: left;
         width: auto;
@@ -35,7 +35,7 @@ h1{
     }
     
 }
-@media (min-width: 0) and (max-width: 600px){
+@media (min-width: 0) and (max-width: 767px){
     .subcontainer{
         width: auto;
     }
